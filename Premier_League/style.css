@@ -1,0 +1,78 @@
+@import url(../reset_css.css);
+
+#main{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: transparent;
+    color: #e4e4e4;
+    padding: 2px 8px 5px; 
+    font-weight: 700;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: 1px solid transparent;    
+}
+
+#btnAnterior{
+    transform: translate(150%, 45%);
+}
+#btnPosterior{
+    transform: translate(-150%, 45%);
+}
+
+#slider{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 2px;
+}
+
+#images{
+    width: 100%;
+    height: 580px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.image{
+    min-width: 100%;
+    min-height: 100%;
+    transition: all 1s ease;
+}
+
+#index{
+    position: absolute;
+    top: 5.5%;
+    right: 17%;
+    font-size: 10pt;
+    color: #a2a2a2aa;
+    text-shadow: 0 0 #252525;
+}
+
+#teamName{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#homeLink{
+    width: 10%;
+    margin: 2rem auto;
+    color: #00ffff;
+    display: block;
+    text-align: center;
+    transition: all .8s ease;
+}
+
+#homeLink:hover{
+    text-shadow: 0 0 5px gold;
+}

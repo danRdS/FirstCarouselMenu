@@ -1,0 +1,302 @@
+@media screen and (max-width: 1286px) {
+    p{
+        margin: 18% auto;
+    }
+}
+@media screen and (max-width: 1160px) {
+    p{
+        margin: 20% auto;
+    }
+    .mainTextDown{
+        margin: 30% auto;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .btn_menu_closed{
+        width: 7%;
+    }
+    .btn_menu_open{
+        width: 17%;
+    }
+    .showMenu{
+        width: 7%;
+    }
+    .expandirMenu{
+        width: 17%;        
+    }
+    p{
+        margin: 25% auto;
+    }
+    .mainTextDown{
+        margin: 35% auto;
+    }
+    #menuFooter{
+        margin: -10px auto 15px;
+        width: 35%;
+        justify-content: space-around;
+    }
+    .copy{
+        width: 15%;
+        font-size: small;
+    }
+    
+}
+
+@media screen and (max-width: 860px) {
+    .btn_menu_closed{
+        width: 8%;
+    }
+    .btn_menu_open{
+        width: 18%;
+    }
+    .showMenu{
+        width: 8%;
+    }
+    .expandirMenu{
+        width: 18%;        
+    }
+    h1{
+        margin-left: -5%;
+    }    
+    .mainTextDown{
+        margin: 38% auto;
+    }
+    #menuFooter{
+        width: 45%;
+        margin: 0px auto 15px;
+    }
+    .copy{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .btn_menu_closed{
+        width: 10%;
+    }
+    .btn_menu_open{
+        width: 20%;
+    }
+    .showMenu{
+        width: 10%;
+    }
+    .expandirMenu{
+        width: 20%;        
+    }
+    h1{
+        font-size: 18pt;
+    }
+    p{
+        margin: 35% auto;
+    }
+    .mainTextDown{
+        margin: 48% auto;
+    }
+    .link_menu{
+        font-size: 10pt;
+    }
+    #menuFooter{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .btn_menu_open{
+        width: 25%;
+    }
+    .expandirMenu{
+        width: 25%;        
+    }
+    p{
+        margin: 40% auto;
+        width: 85%;
+    }
+    .mainTextDown{
+        margin: 60% auto;
+    }
+    .link_menu{
+        font-size: 9pt;
+    }
+    #menuFooter{
+        margin: 10px auto 15px;
+        justify-content: space-between;
+    }
+    .copy{
+        width: 25%;
+    }    
+}
+@media screen and (max-width: 490px) {
+    .btn_menu_closed{
+        margin-left: 15px;
+    }
+    .btn_menu_open{
+        margin-left: 15px;
+    }
+    .showMenu{
+        margin-left: 15px;
+    }
+    .expandirMenu{
+        margin-left: 15px;       
+    }
+    h1{
+        margin-left: -10%;
+    }
+    .menuBarOpen{
+        height: 35vh;
+    }
+    p{
+        margin: 45% auto;
+    }
+    .mainTextDown{
+        margin: 65% auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .btn_menu_closed{
+        margin-left: 10px;
+        border-radius: 50%;
+    }
+    .btn_menu_open{
+        width: 28%;
+        margin-left: 10px;
+    }
+    .showMenu{
+        margin-left: 10px;
+    }
+    .expandirMenu{
+        width: 28%;
+        margin-left: 10px;
+    }
+    h1{
+        font-size: 15pt;
+        margin-left: 14%;
+    }
+    
+    p{
+        margin: 50% auto;
+        width: 90%;
+    }
+    .mainTextDown{
+        margin: 70% auto;
+    }
+    #menuFooter{
+        width: 55%;
+        margin: 15px auto 15px;
+    }
+    .copy{
+        width: 30%;
+    } 
+        
+}
+@media screen and (max-width: 380px) {
+    .btn_menu_closed{
+        font-size: 10pt;
+        top: 3%;
+    }
+    .btn_menu_open{
+        font-size: 10pt;
+        top: 3%;
+    }
+    h1{
+        font-size: 14pt;
+        margin-left: 10%;
+    }
+    .menuBarOpen{
+        height: 30vh;
+    }
+    p{
+        margin: 55% auto;
+    }
+    .mainTextDown{
+        margin: 80% auto;
+    }
+    .link_menu{
+        font-size: 8pt;
+    }
+    #menuFooter{
+        width: 65%;
+        margin: 18px auto 13px;
+        padding: 4px;
+    }
+    .copy{
+        width: 40%;
+    }     
+}
+
+@media screen and (max-width: 330px) {
+    .btn_menu_closed{
+        margin-left: 5px;
+    }
+    .btn_menu_open{
+        width: 30%;
+        margin-left: 5px;
+    }
+    .showMenu{
+        margin-left: 5px;
+    }
+    .expandirMenu{
+        width: 30%;
+        margin-left: 5px;
+    }
+    h1{
+        font-size: 13pt;
+        margin-left: 6%;
+    }    
+    p{
+        margin: 60% auto;
+        font-size: 10pt;
+    }
+    .mainTextDown{
+        margin: 90% auto;
+    }
+    .link_menu{
+        font-size: 7pt;
+    }
+    #menuFooter{
+        width: 70%;
+        margin: 20px auto 15px;
+        padding: 3px;
+    }
+    .copy{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 280px) {
+    .btn_menu_open{
+        margin-left: 3px;
+    }
+    .showMenu{
+        white-space: normal;        
+    }
+    .expandirMenu{
+        margin-left: 3px;
+        white-space: normal;
+    }
+    h1{
+        font-size: 12pt;
+        margin-left: 5%;
+    }    
+    p{
+        margin: 75% auto;
+    }
+    .link_menu{
+        font-size: 10pt;
+    }
+    #menuFooter{
+        width: 75%;
+        margin: 25px auto 15px;
+    }
+    
+}
+@media screen and (max-width: 260px) {
+    p{
+        margin: 85% auto;
+    }
+    #menuFooter{
+        width: 80%;
+    }
+    .copy{
+        width: 55%;
+    }
+}
